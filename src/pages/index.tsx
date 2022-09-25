@@ -1,24 +1,16 @@
 
 import { useEffect, useState } from 'react'
 import Quiz from '../components/Quiz'
-import AnswerModel from '../model/answer'
 import QuestionModel from '../model/question'
 import { useRouter } from 'next/router'
 
-const mockQuestion = new QuestionModel(1, "Melhor Cor?", [
-  AnswerModel.wrong("Verde"),
-  AnswerModel.wrong("Azul"),
-  AnswerModel.wrong("Preto"),
-  AnswerModel.right("Vermelho"),
-])
-
-const BASE_URL = "http://localhost:3000/api/"
+const BASE_URL = "https://quiz-app-baptista.vercel.app/api/"
 
 export default function Home() {
   const router = useRouter();
 
   const [questionIDs, setQuestionIDs] = useState<number[]>([]);
-  const [question, setQuestion] = useState<QuestionModel>(mockQuestion);
+  const [question, setQuestion] = useState<QuestionModel>();
   const [correctAnswers, setCorrectAnswers] = useState<number>(0);
 
   async function loadQuestionIDs() {
