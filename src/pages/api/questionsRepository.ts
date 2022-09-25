@@ -2,17 +2,17 @@ import AnswerModel from "../../model/answer";
 import QuestionModel from "../../model/question";
 
 const questions: QuestionModel[] = [
-    new QuestionModel(306, 'Qual bicho transmite a Doença de Chagas?', [
-        AnswerModel.wrong('Abelha'),
-        AnswerModel.wrong('Barata'),
-        AnswerModel.wrong('Pulga'),
-        AnswerModel.right('Barbeiro'),
+    new QuestionModel(306, 'Qual o melhor amigo do Homem?', [
+        AnswerModel.wrong('Rato'),
+        AnswerModel.wrong('Papagaio'),
+        AnswerModel.wrong('Gato'),
+        AnswerModel.right('Cão'),
     ]),
-    new QuestionModel(202, 'Qual fruto é conhecido no Norte e Nordeste como "jerimum"?', [
-        AnswerModel.wrong('Caju'),
-        AnswerModel.wrong('Côco'),
-        AnswerModel.wrong('Chuchu'),
-        AnswerModel.right('Abóbora'),
+    new QuestionModel(202, 'Qual o clube de Futebol cujo o emblema possui um dragão?', [
+        AnswerModel.wrong('Sporting'),
+        AnswerModel.wrong('Benfica'),
+        AnswerModel.wrong('Nacional'),
+        AnswerModel.right('Porto'),
     ]),
     new QuestionModel(203, 'Qual é o coletivo de cães?', [
         AnswerModel.wrong('Manada'),
@@ -26,13 +26,13 @@ const questions: QuestionModel[] = [
         AnswerModel.wrong('Trapézio'),
         AnswerModel.right('Escaleno'),
     ]),
-    new QuestionModel(205, 'Quem compôs o Hino da Independência?', [
-        AnswerModel.wrong('Castro Alves'),
+    new QuestionModel(205, 'Quem descobriu o Brasil?', [
+        AnswerModel.wrong('Castro Pereira'),
         AnswerModel.wrong('Manuel Bandeira'),
-        AnswerModel.wrong('Carlos Gomes'),
-        AnswerModel.right('Dom Pedro I'),
+        AnswerModel.wrong('José Fonte'),
+        AnswerModel.right('Pedro Álvares Cabral'),
     ]),
-    new QuestionModel(206, 'Qual é o antônimo de "malograr"?', [
+    new QuestionModel(206, 'Qual é o antónimo de "malograr"?', [
         AnswerModel.wrong('Perder'),
         AnswerModel.wrong('Fracassar'),
         AnswerModel.wrong('Desprezar'),
@@ -44,11 +44,11 @@ const questions: QuestionModel[] = [
         AnswerModel.wrong('Brasil'),
         AnswerModel.right('Portugal'),
     ]),
-    new QuestionModel(208, 'Qual foi o último Presidente do período da ditadura militar no Brasil?', [
-        AnswerModel.wrong('Costa e Silva'),
-        AnswerModel.wrong('Emílio Médici'),
-        AnswerModel.wrong('Ernesto Geisel'),
-        AnswerModel.right('João Figueiredo'),
+    new QuestionModel(208, 'Qual foi o primeiro rei de Portugal?', [
+        AnswerModel.wrong('D. João I'),
+        AnswerModel.wrong('D. Dinis'),
+        AnswerModel.wrong('D. Pedro'),
+        AnswerModel.right('D. Afonso Henriques'),
     ]),
     new QuestionModel(209, 'Seguindo a sequência do baralho, qual carta vem depois do dez?', [
         AnswerModel.wrong('Ás'),
@@ -86,17 +86,17 @@ const questions: QuestionModel[] = [
         AnswerModel.wrong('Indébito'),
         AnswerModel.right('Indenização'),
     ]),
-    new QuestionModel(215, 'Que personagem do folclore brasileiro tem uma perna só?', [
-        AnswerModel.wrong('Cuca'),
-        AnswerModel.wrong('Curupira'),
-        AnswerModel.wrong('Boitatá'),
-        AnswerModel.right('Saci-pererê'),
+    new QuestionModel(215, 'De onde é o famosos futebolista Cristiano Ronaldo?', [
+        AnswerModel.wrong('Lisboa'),
+        AnswerModel.wrong('Açores'),
+        AnswerModel.wrong('Ilhas Canárias'),
+        AnswerModel.right('Ilha da Madeira'),
     ]),
-    new QuestionModel(216, 'Quem é o "patrono" do Exército Brasileiro?', [
-        AnswerModel.wrong('Marechal Deodoro'),
-        AnswerModel.wrong('Barão de Mauá'),
-        AnswerModel.wrong('Marquês de Pombal'),
-        AnswerModel.right('Duque de Caxias'),
+    new QuestionModel(216, 'Qual o nome mais comum do mundo?', [
+        AnswerModel.wrong('João'),
+        AnswerModel.wrong('Pedro'),
+        AnswerModel.wrong('José'),
+        AnswerModel.right('Mohammed'),
     ]),
 ]
 
