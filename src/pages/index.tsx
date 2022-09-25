@@ -4,7 +4,7 @@ import Quiz from '../components/Quiz'
 import QuestionModel from '../model/question'
 import { useRouter } from 'next/router'
 
-const BASE_URL = process.env.NEXT_PUBLIC_API_URL;
+const BASE_URL = process.env.API_URL;
 
 export default function Home() {
   const router = useRouter();
