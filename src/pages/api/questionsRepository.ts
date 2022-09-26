@@ -86,7 +86,7 @@ const questions: QuestionModel[] = [
         AnswerModel.wrong('Indébito'),
         AnswerModel.right('Indenização'),
     ]),
-    new QuestionModel(215, 'De onde é o famosos futebolista Cristiano Ronaldo?', [
+    new QuestionModel(215, 'De onde é o famoso futebolista Cristiano Ronaldo?', [
         AnswerModel.wrong('Lisboa'),
         AnswerModel.wrong('Açores'),
         AnswerModel.wrong('Ilhas Canárias'),
